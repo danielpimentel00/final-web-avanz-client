@@ -1,0 +1,48 @@
+.comic-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+  button {
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      font-size: 32px;
+    }
+
+    .info {
+      min-width: 600px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+      .data {
+        margin-bottom: 10px;
+        .title {
+          font-weight: bold;
+          font-size: 24px;
+          border-bottom: solid black 1px;
+        }
+      }
+
+      img {
+        width: 350px;
+      }
+    }
+  }
+}

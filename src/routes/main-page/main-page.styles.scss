@@ -1,0 +1,32 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      margin: 20px;
+
+      img {
+        width: 190px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .title {
+        font-weight: bold;
+      }
+    }
+  }
+}
